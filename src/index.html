@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/src/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Mogo</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
                 <div class="header__logo">MoGo</div>
 
                 <nav class="nav"> 
-                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link active" href="#">About</a>
                     <a class="nav__link" href="#">Service</a>
                     <a class="nav__link" href="#">Blog</a>
                     <a class="nav__link" href="#">Work</a>
@@ -29,11 +30,64 @@
         <div class="container">
             <div class="intro__inner">
                 <h2 class="intro__suptitle">Creative Template</h2>
-               <h1 class="intro__title">Welcome to MoGo</h1> 
+                <h1 class="intro__title">Welcome to MoGo</h1>
+                
+                <a href="#" class="btn">Learn More</a>
             </div>
-            
         </div>
+
+        <div class="slider">
+            <div class="container">
+                <div class="slider__inner">
+                    <div class="slider__item active">
+                        <span class="slider__num">01</span>
+                        Intro
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">02</span>
+                        Work
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">03</span>
+                        About
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">04</span>
+                        Contacts
+                    </div>
+                </div>
+            </div>
+        </div> 
     </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">What we do</h3>
+                <h2 class="section__title">Story about us</h2>
+                <div class="section__text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="about">
+                <div class="about__item">
+                    <img src="/src/assets/img/about/1.jpg" alt="">
+                </div>
+                <div class="about__item">
+                    <img src="/src/assets/img/about/2.jpg" alt="">
+                </div>
+                <div class="about__item">
+                    <img src="/src/assets/img/about/3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>    
     
     
 </body>
