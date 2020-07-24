@@ -1,0 +1,137 @@
+body
+{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/img/intro_bg.jpg");
+    background-size: cover;
+}
+
+
+
+.intro__inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.intro__title{
+    font-size: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1;
+}
+
+.intro__title::after{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto 0;
+}
+
+.intro__suptitle
+{
+    font-family: "Kaushan Script", cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: 72px;
+}
+
+
+
+/* Header */
+.header{
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Nav */
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 25px;
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+
+    transition:color 0.1s linear;
+}
+
+.nav__link:hover{
+    color: #fce38a;
+}
+
+.nav__link::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -8px;
+    opacity: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fce38a;
+
+    transition: opacity 0.1s linear;
+}
+
+.nav__link:hover::after{
+    opacity: 1;
+}
+
