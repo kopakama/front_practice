@@ -21,6 +21,12 @@
                     <a class="nav__link" href="#">Blog</a>
                     <a class="nav__link" href="#">Work</a>
                     <a class="nav__link" href="#">Contact</a>
+                    <a class="nav__link" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a class="nav__link" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
                 </nav>
             </div>
         </div>
@@ -41,19 +47,19 @@
                 <div class="slider__inner">
                     <div class="slider__item active">
                         <span class="slider__num">01</span>
-                        Intro
+                        <span class="slider__text">Intro</span>
                     </div>
                     <div class="slider__item">
                         <span class="slider__num">02</span>
-                        Work
+                        <span class="slider__text">Work</span>
                     </div>
                     <div class="slider__item">
                         <span class="slider__num">03</span>
-                        About
+                        <span class="slider__text">About</span>
                     </div>
                     <div class="slider__item">
                         <span class="slider__num">04</span>
-                        Contacts
+                        <span class="slider__text">Contacts</span>
                     </div>
                 </div>
             </div>
@@ -138,47 +144,45 @@
                 <h2 class="section__title">Amazing servises</h2>
             </div>
             <div class="skills">
-                <div class="skills__item">
+                <div class="skills__item skills__item--border">
                     <div class="skills__img">
                         <img src="assets/img/skills/1.png" alt="">
                     </div>
                     <div class="skills__title">Photoghraphy</div>
                     <div class="skills__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit, sed do eiusmod tempor.</p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor.
                     </div>
                 </div>
-                <div class="skills__item">
+                <div class="skills__item skills__item--border">
                     <div class="skills__img">
                         <img src="assets/img/skills/2.png" alt="">
                     </div>
                     <div class="skills__title">Web design</div>
                     <div class="skills__text">
-                        <p>Ipsum dolor sit amet, consectetur adipiscing 
-                            elit, sed do eiusmod tempor.</p>
+                        Ipsum dolor sit amet, consectetur adipiscing 
+                            elit, sed do eiusmod tempor.
                     </div>
                 </div>
-                <div class="skills__item">
+                <div class="skills__item skills__item--border">
                     <div class="skills__img">
                         <img src="assets/img/skills/3.png" alt="">
                     </div>
                     <div class="skills__title">Creativity</div>
                     <div class="skills__text">
-                        <p>Dolor sit amet, 
-                            consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        Dolor sit amet, 
+                            consectetur adipiscing elit, sed do eiusmod tempor.
                     </div>
                 </div>
-            </div>
 
-            <div class="skills">
                 <div class="skills__item">
                     <div class="skills__img">
                         <img src="assets/img/skills/4.png" alt="">
                     </div>
                     <div class="skills__title">SEO</div>
                     <div class="skills__text">
-                        <p>Ipsum dolor sit amet, 
-                            consectetur adipiscing elit, sed do eiusmod.</p>
+                        Ipsum dolor sit amet, 
+                            consectetur adipiscing elit, sed do eiusmod.
                     </div>
                 </div>
                 <div class="skills__item">
@@ -187,8 +191,8 @@
                     </div>
                     <div class="skills__title">CSS/HTML</div>
                     <div class="skills__text">
-                        <p>Lorem dolor sit amet, consectetur 
-                            adipiscing elit, sed do tempor.</p>
+                        Lorem dolor sit amet, consectetur 
+                            adipiscing elit, sed do tempor.
                     </div>
                 </div>
                 <div class="skills__item">
@@ -197,7 +201,7 @@
                     </div>
                     <div class="skills__title">Digital</div>
                     <div class="skills__text">
-                        <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                     </div>
                 </div>
             </div>
@@ -692,16 +696,106 @@
         <div class="container">
 
             <div class="footer__inner">
-                <div class="footer__col">
+                <div class="footer__col footer__col--first">
                     <div class="footer__logo">MoGo</div>
                     <div class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Totam autem maxime optio ea ipsa necessitatibus ex libero 
                         unde deleniti. Voluptatibus nesciunt omnis similique? Alias 
                         labore deserunt ut quam, dolorum id?</div>
-                </div>
-            </div>
+                
 
-        </div>
+                    <div class="footer__social">
+                        <div class="footer__social-header">
+                            <b>15k</b> followers
+                        </div>
+                        <div class="footer__social-content">
+                            Follow Us:
+                            <a href="#" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form action="/" class="subscribe" method="POST">
+                        <input class="subscribe__input" type="email" name="name" placeholder="Your Email...">
+                        <button class="subscribe__button" type=submit>Subscribe</button>
+                    </form>
+                </div> <!-- /.footer__col-->
+
+                <div class="footer__col footer__col--second">
+                    <div class="footer__title">Blogs</div>
+                    <div class="blogs">
+                        <div class="blogs__item">
+                            <img class="blogs__img" src="assets/img/footer/blog/1.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing.</a>
+                                <div class="blogs__date">Jan 9, 2016</div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img class="blogs__img" src="assets/img/footer/blog/2.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing.</a>
+                                <div class="blogs__date">Jan 9, 2016</div>
+                            </div>
+                        </div>
+
+                        <div class="blogs__item">
+                            <img class="blogs__img" src="assets/img/footer/blog/3.jpg" alt="">
+                            <div class="blogs__content">
+                                <a class="blogs__title" href="#">Lorem ipsum dolor, sit amet consectetur adipisicing.</a>
+                                <div class="blogs__date">Jan 9, 2016</div>
+                            </div>
+                        </div>
+                    </div> <!-- /.blogs-->
+                </div>
+
+                    <div class="footer__col footer__col--third">
+                        <div class="footer__title">Instagram</div>
+                            <div class="insta">
+                                <a class="insta__item" href="#">
+                                    <img src="assets/img/footer/instagram/1.jpg" alt=""> 
+                                </a>
+                                <a class="insta__item" href="#">
+                                    <img src="assets/img/footer/instagram/2.jpg" alt="">
+                                </a>
+                                <a class="insta__item" href="#">
+                                    <img src="assets/img/footer/instagram/3.jpg" alt="">
+                                </a>
+                                <div class="insta__item">
+                                    <img src="assets/img/footer/instagram/4.jpg" alt="">
+                                </div>
+                                <a class="insta__item" href="#">
+                                    <img src="assets/img/footer/instagram/5.jpg" alt="">
+                                </a>
+                                <a class="insta__item" href="#">
+                                    <img src="assets/img/footer/instagram/6.jpg" alt="">
+                                </a>
+                                <a class="insta__item" href="#">
+                                    <img src="assets/img/footer/instagram/7.jpg" alt="">
+                                </a>
+                                <a class="insta__item" href="#">
+                                    <img src="assets/img/footer/instagram/8.jpg" alt="">
+                                </a>
+                                <a class="insta__item" href="#">
+                                    <img src="assets/img/footer/instagram/9.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div><!-- /.footer__inner -->
+
+            <div class="copyright">
+                © 2016 MoGo free PSD template by <span>Laaqiq</span>
+            </div>
+        </div> <!-- /.container -->
     </footer>
 </body>
 </html>
