@@ -35,7 +35,6 @@ $(function(){
             blockOffset = $(blockId).offset().top;
 
         $("#nav a").removeClass("active");
-        $this.addClass("active");
 
         $("#nav").removeClass("active");
         $("#nav_toggle").removeClass("active");
@@ -44,7 +43,6 @@ $(function(){
             scrollTop: blockOffset - 68
 
        }, 500);
-
 
     });
 
