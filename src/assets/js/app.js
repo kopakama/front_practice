@@ -16,7 +16,7 @@ $(function(){
     
     function checkScroll(scrollOffset)
     {
-        if(scrollOffset >= introH - 68) 
+        if(scrollOffset >= introH - 70) 
         {
             header.addClass("fixed");
         } 
@@ -40,7 +40,7 @@ $(function(){
         $("#nav_toggle").removeClass("active");
 
        $("html, body").animate({
-            scrollTop: blockOffset - 68
+            scrollTop: blockOffset - 69
 
        }, 500);
 
